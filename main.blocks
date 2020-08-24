@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="sqpdni_8QRbzW!sIX2|F">Player</variable><variable type="KIND_SpriteKind" id="|@|?R!$;ve5yzbjL4h.:">Projectile</variable><variable type="KIND_SpriteKind" id="8vg[6n:]aH~.GLay~fh#">Food</variable><variable type="KIND_SpriteKind" id="Q/427j@TgJ?4EIyHk?D(">Enemy</variable><variable id="Q!2;@G_u]Sv(g]c.QUu?">hero</variable><variable id="aQXno`[:*]oRTo0Ni-s)">mySprite</variable></variables><block type="pxt-on-start" id=")t/q^e|`:aXa/FA)SM]8" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="3z;m]Ul[Fax+UyGlI+`c"><value name="color"><shadow type="colorindexpicker" id="N-p+kv)A{U^c7j;ukb|5"><field name="index">9</field></shadow></value><next><block type="variables_set" id="SvXuKFWTRG$|wTTGlX{m"><field name="VAR" id="Q!2;@G_u]Sv(g]c.QUu?">hero</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="m2DRW.R0#tr?a$yFyF2j"><value name="img"><shadow type="screen_image_picker" id="4e7O/0;F{@Y-ro!7plN*"><field name="img">img`
+. . . . . . 5 . 5 . . . . . . . 
+. . . . . f 5 5 5 f f . . . . . 
+. . . . f 1 5 2 5 1 6 f . . . . 
+. . . f 1 6 6 6 6 6 1 6 f . . . 
+. . . f 6 6 f f f f 6 1 f . . . 
+. . . f 6 f f d d f f 6 f . . . 
+. . f 6 f d f d d f d f 6 f . . 
+. . f 6 f d 3 d d 3 d f 6 f . . 
+. . f 6 6 f d d d d f 6 6 f . . 
+. f 6 6 f 3 f f f f 3 f 6 6 f . 
+. . f f d 3 5 3 3 5 3 3 f f . . 
+. . f d f f 3 5 5 3 f d f . . . 
+. . . f f 3 3 3 3 3 f d f . . . 
+. . . f 3 3 5 3 3 5 3 f f . . . 
+. . . f f f f f f f f f . . . . 
+. . . . . f f . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="v;ERBMcNScdnd,|{Lmyt"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id=".eCQ,5lX;%.rU:p;*76s"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="1C@4Zh_%%Lx,pyQbbiUa"><field name="VAR" id="Q!2;@G_u]Sv(g]c.QUu?">hero</field></block></value><next><block type="camerafollow" id="FlW+v)t8}ye@V/@+g^J;"><value name="sprite"><block type="variables_get" id="rnX`$/fccf$t${EjRkn3"><field name="VAR" id="Q!2;@G_u]Sv(g]c.QUu?">hero</field></block></value></block></next></block></next></block></next></block></statement></block></xml>
